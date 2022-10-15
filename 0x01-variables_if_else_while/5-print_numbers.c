@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
- * main - print number
+ * main - prints numbers
  * Return: 0
  */
 int main(void)
 {
-	int munber;
+	int nunber;
 
 	for (number = 0; number <= 10; number++)
 		printf("%d", number);
