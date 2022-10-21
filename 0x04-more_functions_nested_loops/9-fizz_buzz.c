@@ -7,15 +7,15 @@ int main(void)
 {
 	int n;
 
-	for (n = 1; n <= 100; n++)
+	printf("1");
+	for (n = 2; n <= 100; n++)
 	{
+		printf(" ");
 		if (n % 3 == 0)
-			printf("%s", "Fizz");
-		else if (n % 5 == 0)
-			printf("%s", "Buzz");
-		else if (n % 3 == 0 && n % 5 == 0)
-			printf("%s", "FizzBuzz");
-		else
+			printf("Fizz");
+		if (n % 5 == 0)
+			printf("Buzz");
+		if (n % 3 != 0 && n % 5 != 0)
 			printf("%d", n);
 	}
 	printf("\n");
