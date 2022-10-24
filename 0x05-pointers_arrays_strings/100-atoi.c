@@ -17,7 +17,7 @@ int _atoi(char *s)
 			result = (result * 10) + (s[0] - '0') * sign;
 		else if (result)
 			break;
-		s++
+		s++;
 	}
 	return (result);
 }
